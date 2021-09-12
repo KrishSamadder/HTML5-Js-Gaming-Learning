@@ -1,0 +1,70 @@
+
+/* * {
+    border: solid;
+} */
+
+.header *{
+    border:solid;
+
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    border: solid;
+    border-color: blue;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p{
+    text-align: center;
+    border: solid;
+    border-color: green;
+}
+
+h2{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+a:link{
+    color:yellow;
+}
+
+a:visited{
+    color: yellow;
+}
+
+a:hover{
+    color: red;
+}
+.menu {
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 50px;
+}
+
